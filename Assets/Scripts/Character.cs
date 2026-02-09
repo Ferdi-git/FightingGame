@@ -16,6 +16,7 @@ public class Character : MonoBehaviour
     private float healMult = 0.2f;
     private float critChance = 0.2f;
     private float critMult = 2f;
+
     [SerializeField] SOEventChara eventChara;
 
     public UnityEvent CharacterDie;
